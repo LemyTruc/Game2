@@ -104,3 +104,12 @@ body {
         display: none !important
     }
 }
+#Back-btn {
+    background-color: #28a7a5; /* Màu nền mới */
+    color: white; /* Màu chữ */
+    border: none; /* Không có đường viền */
+}
+
+#Back-btn:hover {
+    background-color: #778821; /* Màu nền khi hover */
+}
