@@ -545,3 +545,6 @@ function saveScore(score) {
     scoreHistory.push(score);
     localStorage.setItem('scoreHistory', JSON.stringify(scoreHistory));
 }
+document.getElementById('Back-btn').addEventListener('click', function() {
+    window.open('https://front-end-web5.vercel.app/', '_self'); // Mở liên kết trong cùng tab
+});
